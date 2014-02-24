@@ -1,0 +1,137 @@
+\documentclass[pdftex12pt, a4paper]{book}
+\usepackage[pdftex]{graphicx}
+\usepackage{amsmath}
+\usepackage{boxedminipage}
+\usepackage{hyperref}
+\usepackage{fullpage}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{caption}
+%\usepackage[toc]{glossaries}
+\usepackage[T1]{fontenc}
+\usepackage{float}
+\usepackage[parfill]{parskip}
+\usepackage{subfigure}
+\usepackage{units}
+
+% Fancy listings
+\DeclareCaptionFont{white}{\color{white}}
+\DeclareCaptionFormat{listing}{%
+  \parbox{\textwidth}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}\vskip-4pt}}
+\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
+\lstset{frame=lrb,xleftmargin=\fboxsep,xrightmargin=-\fboxsep,language=[LaTeX]{TeX},columns=flexible}
+\renewcommand{\lstlistingname}{Snippet}
+
+% Title page stuff
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+\newcommand{\resetfigurecounter}{\setcounter{figure}{0}}
+
+% Constrain depth in table of contents
+\setcounter{tocdepth}{2}
+
+% References
+\renewcommand{\bibname}{References}
+
+% Additional commands
+\newcommand{\degreeC}{\ensuremath{^\circ}C}
+%\newcommand{\unit}[1]{\ensuremath{\, \mathrm{#1}}}
+
+% glossaries
+%\input{Glossary}
+%\makeglossaries
+
+\begin{document}
+
+\setlength\parindent{0pt}
+
+\begin{titlepage}
+\begin{center}
+
+\includegraphics[width=0.5\textwidth]{Images/Sedes}\\[0.1cm]    
+
+\textsc{\LARGE Katholieke Universiteit Leuven}\\[1.5cm]
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Thesis \\ \vspace{2mm}Optimal operation of decentralized CHP under uncertainties }\\[0.4cm]
+
+\HRule \\[1.5cm]
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+Jef \textsc{Dani\"els}\\
+\vspace{40mm}
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Professor} \\
+Prof. Dr. Ir. W. \textsc{D'haeseleer}\\
+\emph{Mentor} \\
+J. \textsc{Zapata Riveros }\\
+\vspace{30mm}
+\end{flushright}
+\end{minipage}
+
+\vfill
+
+{\large \today}
+
+\end{center}
+
+\end{titlepage}
+
+\newpage
+
+\tableofcontents
+
+\resetfigurecounter
+
+\newpage
+
+\newenvironment{abstract}{
+    \onehalfspacing%
+    \chapter*{\centering Abstract}%
+}{\input{General/Abstract.tex}}
+
+\chapter{Introduction}
+\label{s:Introduction}
+
+\input{General/Introduction.tex}
+
+%\chapter{Literature}
+%\label{s:Literature}
+%
+%\input{Content/Literature.tex}
+
+\chapter{Different types of CHP's}
+\label{s:TypesCHP}
+
+\input{Content/DifferentTypesOfCHPs.tex}
+
+\chapter{Electricity Markets}
+\label{s:ElecMar}
+
+\input{Content/ElectricityMarkets.tex}
+
+\chapter{Wind Uncertainties}
+\label{s:WindUnc}
+
+\input{Content/WindUncertainties.tex}
+
+\chapter{Model}
+\label{s:Model}
+
+\input{Content/Model.tex}
+
+\chapter{Conclusion}
+\label{s:Conclusion}
+
+\input{General/Conclusion.tex}
+
+\bibliographystyle{plain}
+\bibliography{References/Bibliography}
+%\input{References/References.tex}
+
+\end{document}

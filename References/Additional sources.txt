@@ -1,0 +1,15 @@
+Wind turbines and heat pumps - balancing wind power fluctuations
+using flexible demand
+Balancing wind power
+with virtual power plants of micro-CHPs
+* Uncertainty regulating with heat pumps
+
+Flexible cooling demand in virtual power plants
+* Opposite of generating heat and store it in a storage
+
+Uncertainties in
+the design and operation of distributed energy resources: The case of micro-CHP
+systems
+* Dynamic behaviour of Stirling engine
+
+Thermal gradient niet te verwaarlozen!!
