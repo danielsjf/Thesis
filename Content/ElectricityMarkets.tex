@@ -1,5 +1,177 @@
-In Belgium, the electricity markets are governed by Elia. This is the Belgian Transmission System Operator or TSO. They own the high voltage network and have to organise the balance of the network.
+Electricity is an instantaneous commodity. This means that it is produced and consumed at almost the same instant in time. If not, the grid frequency will change (slowing down or ramping up of the generators) and worst case, a blackout will occur. There are no means to store large chunks of electricity. Therefore, some kind of supply and demand balance regulation is necessary. In Belgium Elia is the regulator who is responsible for the quality of the grid services and is also known as the \acrfull{tso} \cite{Vehvilainen2002,EliaRO}.
 
-In order to match the electricity supply and demand, some entity is needed to organise this. This organiser is called the Transmission System Operator (TSO). The TSO transports the electricity from the suppliers to the local electricity distributors.
+In order to fully understand the added value of micro-CHP's in the electricity system, this balancing system needs some explanation. In the first section, an overview of the different stakeholders is given. In the second, the balancing mechanism is described.
 
-To maintain supply and demand at all times (if not the frequency will change), a market system is needed. The Belgian electricity market consists of two parts. There is the Day-Ahead Market and the Intraday market.
+\section{Actors in the Belgian Electricity grid}
+\label{s:gridactors}
+
+The goal of the electricity grid is to connect suppliers and consumers. Therefore, there are three main actors. The suppliers, the consumers and the \textbf{\gls{tso}}. In Belgium, this TSO is Elia. The \gls{tso} is responsible for balancing the supply and demand at any moment in time \cite{EliaRO}.
+
+In Belgium, Elia only governs the high voltage grid (>\unit[70]{kV}). The connections to this grid are called access points and are kept to a minimum. For each access point, there is an \textbf{\gls{brp}}. The \gls{brp} is in Belgium also known as the \gls{arp}. The \gls{brp} can be a supplier, a consumer or both. But regardless its portfolio, the \gls{brp} is responsible for balancing all the offtake and injection in this access point every quarter of an hour. If not, they must trade with other \glspl{brp} to remove this imbalance \cite{EliaRO}. 
+
+End consumers don't have direct access to the high voltage grid. There are aggregated by distributors who connect the households as a whole to the grid. The two Belgian distributors are Infrax and Eandis.
+
+In order to maintain the fragile balance between all the \glspl{brp}, Elia depends on a couple mechanisms to balance the network continuously. These balancing mechanisms are described in the next section.
+
+\section{Balancing mechanism}
+
+In order to cope with imbalances, Elia uses three balancing mechanisms. Firstly, each \gls{brp} has to maintain its own balance. This is what we call balance responsibility. Secondly, Elia has access to an European wide network consisting of 24 interconnected countries and has the opportunity to import and export electricity. Thirdly, the \gls{tso} has contracts with some of the \glspl{brp} for primary, secondary and tertiary reserves. These services are also known as the system services \cite{EliaProd,EliaRO,EliaBM}.
+
+\subsection{Balance responsibility}
+\label{ss:balanceresponsibility}
+
+Each \gls{brp} can be a supplier, a consumer, or both and is responsible for the quarter-hourly balance in its own perimeter. Therefore, each \gls{brp} has to balance:
+\begin{itemize}
+\item the offtakes;
+\item the injections;
+\item transactions with other \glspl{brp};
+\item transactions with other countries.
+\end{itemize}
+If there is an imbalance remaining, penalties or imbalance fees are charged. To facilitate the trading, Elia offers a few services given below. These services differ in the period in which they can be used \cite{EliaProd,EliaRO}.
+
+\subparagraph{Nominations on the day-ahead market}
+
+The day-ahead market is available until the day before the electricity is consumed (day D-1) at \unit[2:00]{\textsc{pm}}  and is a free electronic service \cite{EliaN}. \glspl{brp} can announce the volumes they are planning to buy or sell and this is called a nomination. Offers are made on a quarter-hourly base and have an accuracy of \unit[0.1]{MWh}. These nominations consist only of an amount of energy (in \unit{MWh}), and it is up to the \glspl{brp} to decide upon the transaction details \cite{EliaDA,EliaN}. 
+
+The transactions are based upon a double nomination principle. This means that for each nomination, an other \gls{brp} must do an equal but opposite nomination. If the nominations aren't balanced at a certain moment in time, this is known as an inconsistency. This can be due to discrepancies in nominations or if one of them still has to submit their nomination. \glspl{brp} have until \unit[2:30]{\textsc{pm}} to resolve remaining inconsistencies. After this time, Elia can charge imbalance fees or refuse the nomination \cite{EliaDA,EliaN}.
+
+\subparagraph{The intraday market}
+
+The intraday market is accessible between \unit[2:00]{\textsc{pm}} on day D-1 and \unit[2:00]{\textsc{pm}} on day D+1. After nominations are made, unforeseen circumstances can occur. To compensate, an \gls{brp} can modify its production, consumption or trade with other \glspl{brp}. The latter is possible via the intraday hub. As well as the day-ahead market, this is a free electronic service \cite{EliaI}.
+
+It is important to mention that the day-ahead and intraday transactions are two different transactions. The existing nominations remain unchanged and the new intraday transaction is added separately to the portfolio. They can be sent after the real energy transfer \cite{EliaI}.
+
+Just as the day-ahead nominations, the intraday nominations are made on a quarter-hourly base and have an accuracy of \unit[0.1]{MWh}. However the usage of the intraday market is limited to avoid abuse or speculation. If the intraday market is used to compensate inconsistencies in the day-ahead market consistently, or there remain major systematic discrepancies between the nominations and the real injections or offtakes, Elia can ban the \gls{brp} from the intraday market for 30 days \cite{EliaI}.
+
+\subparagraph{The imbalance tarrifs}
+
+To determine the amount of the imbalance fee, one has to consider four different scenarios. These scenarios depend on the balance of the Elia control region (national) and the \gls{brp} balance perimeter \cite{EliaIT}.
+
+In the \textit{control region}, there can be too much production or too much consumption. Therefore, an additional production is necessary and is called the \textbf{\gls{nrv}}. The \gls{nrv} is positive when extra production is required and negative when extra consumption is required \cite{EliaIT}.
+
+In the \textit{\gls{brp} perimeter}, there can be too much production (a positive balance) or too much consumption (a negative balance) as well \cite{EliaIT}.
+
+Depending on the overlap of these two situations, four scenarios can occur:
+\begin{itemize}
+\item the \gls{nrv} is negative (consumption needed) and the perimeter balance is positive (too much production) (scenario A);
+\item the \gls{nrv} is positive (production needed) and the perimeter balance is positive (too much production) (Scenario B);
+\item the \gls{nrv} is negative (consumption needed) and the perimeter balance is negative (too much consumption) (scenario C);
+\item the \gls{nrv} is positive (production needed) and the perimeter balance is negative (too much consumption) (scenario D).
+\end{itemize}
+In scenario B and C, there is an imbalance, but the imbalance in the \glspl{brp} perimeter is clearly reducing the global imbalance thus these scenarios can be seen as positive. In scenarios A and D, in contrary, the imbalance in the \glspl{brp} perimeter is increasing the global imbalance and these scenarios can be seen as negative. An overview of all these scenarios is shown in table \ref{t:NRV}, where \acrshort{mip} is the \textbf{\acrlong{mip}}, \acrshort{mdp} is the \textbf{\acrlong{mdp}} and \gls{alpha} and \gls{beta} are additional fees to stimulate the \glspl{brp} to maintain their balance \cite{EliaIT,EliaMarkt}.
+
+The \gls{mip} is the price that Elia would have to pay to its reserve power suppliers to produce one unit of energy extra. The \gls{mdp} is the price that Elia would have to pay to its reserve power consumers to consume one unit of energy extra \cite{EliaIT}.
+
+In the current system, $\beta_1$ and $\beta_2$ are equal to \unit[0]{\euro /MWh}. This is because in scenario B and C, the result of the local imbalance is advantageous for the global imbalance \cite{EliaIT}.
+
+Scenario A and D are disadvantageous for the global imbalance and are penalised. Therefore, $\alpha_1$ and $\alpha_2$ can be, but are not necessarily equal to \unit[0]{\euro /MWh}. Two rules apply:
+\begin{enumerate}
+\item If the total imbalance in the control area is smaller or equal to \unit[140]{MW}:
+  \begin{equation}
+    \alpha_1 = \alpha_2 = \unit[0]{\texteuro /MWh}
+  \end{equation}
+\item If the total imbalance in the control area exceeds \unit[140]{MW}:
+  \begin{equation}
+     \alpha_1 = \alpha_2 = \frac{\sum_{i=0}^{7}{(I_{\mathit{QH}-i})^2}}{8 \cdot c},
+  \end{equation}
+where $c = 15,000$ and is a custom variable determined by Elia.
+\end{enumerate}
+In scenarios B and C, the \gls{brp} receives/pays respectively the price that Elia would pay/receive for the additional production/consumption of the energy to balance the system (see also section \ref{s:reservepower}). In scenario A and D, the received/paid price is always less than what an \gls{brp} would receive if the system was balanced \cite{EliaIT}.
+
+The goal of the additional fees is twofold. On the one hand, \glspl{brp} are discouraged to create imbalances. On the other, the fees cover the additional costs that Elia has to make in order to ensure the balance of the Belgian grid. These extra costs consist of reservation costs (to guarantee a certain minimal level of reserves) and administrative costs (billing imbalance tarrifs, purchasing reserves and monitoring the balance in the Belgian control area) \cite{EliaIT}.
+
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+\begin{table*}\centering
+\ra{1.3}
+\caption*{\textbf{Imbalance tarrifs in Belgium [\unit{\texteuro /MW}]}}
+\begin{tabular}{@{}r c ll@{}}\toprule
+Balance perimeter & \phantom{abcd} & \multicolumn{2}{c}{Net Regulation Volume} \\ \cmidrule{3-4}
+         && \parbox{4cm}{Negative \\ \textit{Additional consumption} \\ \textit{needed}} & \parbox{4cm}{Positive \\ \textit{Additional production} \\ \textit{needed}} \\ \midrule
+\parbox{4cm}{Positive \\ \textit{Too much production}}  && \parbox{4cm}{Scenario A \\ $\mathit{MDP} - \alpha_1$} & \parbox{4cm}{Scenario B \\ $\mathit{MIP} - \beta_1$} \\
+\\
+\parbox{4cm}{Negative \\ \textit{Too much consumption}} && \parbox{4cm}{Scenario C \\ $\mathit{MDP} + \beta_2$} & \parbox{4cm}{Scenario D \\ $\mathit{MIP} + \alpha_2$} \\
+\bottomrule
+\end{tabular}
+\caption[Imbalance tarrifs in Belgium]{The different imbalance tarrifs, depending on the different imbalance scenarios. Scenario B and C are positive for the global imbalance, whereas scenario A and D are negative for the global imbalance. \acrshort{mip} is the \textbf{\acrlong{mip}}, \acrshort{mdp} is the \textbf{\acrlong{mdp}} and \gls{alpha} and \gls{beta} are additional fees to stimulate the \glspl{brp} to maintain their balance.}
+\label{t:NRV}
+\end{table*}
+
+\subsection{European cooperation}
+
+Since 2006, Belgium is connected to the Netherlands and France. In 2010, Germany, together with most of the other West-European countries joined. Belgium is directly connected to France and The Netherlands and electricity can be traded freely. In case of imbalances, electricity can be imported or exported immediately with the 24 connected countries in the \textbf{\gls{entsoe}} \cite{EliaBM}.
+
+\subsection{System services}
+\label{s:reservepower}
+
+The previous sections covered the Belgian balancing system. However, so far, Elia hopes that the \glspl{brp} balance their local system. In reality, a lot of things could go wrong. There could remain inconsistencies after the nomination deadline, the load predictions can be erroneous, or worst case, a production plant could fail. 
+
+To cope with this, Elia counts on reserve services or also known as the ancillary services. The reserve services are divided based upon the moment in time that they must be activated. The primary reserve must be available between 0 and 30 seconds after an imbalance. The secondary reserve must be available between 30 seconds and 15 minutes after an imbalance. The tertiary reserve must be available after 15 minutes \cite{EliaRO}.
+
+\subparagraph{The primary reserve}
+
+The goal of the primary reserve is to control the grid frequency. This is also known as \gls{fc}. Therefore, the primary reserve should be able to provide power within 15-30 seconds. \cite{EliaRP}.
+
+The Belgian grid is part of a larger European interconnected power system. The \textbf{\gls{ucte}} coordinates this interconnected power system. In order to efficiently operate the interconnected grid, the available primary reserve volumes should exceed \unit[3000]{MW} at any time. Belgium has the responsibility for \unit[100]{MW}. To be sure, Elia tries to achieve a primary reserve volume of \unit[140]{MW} \cite{EliaRP}.
+
+Every \gls{brp} can provide primary reserve power, as long as its equipment has the following technical characteristics:
+\begin{itemize}
+\item they have a device that can read the grid's frequency and their equipment can respond accordingly;
+\item their facilities can deliver half to output within 15 seconds and the full output after 30 seconds;
+\item their facilities can maintain the additional output for 15 minutes;
+\item their facilities are available round the clock.
+\end{itemize}
+
+In return, the \gls{brp} receives payments for both providing and activating the reserve \cite{EliaRP}.
+
+\subparagraph{The secondary reserve}
+
+The purpose of the secondary reserve is to restore the level of the primary reserve back to normal. Therefore, the secondary reserve is activated after the primary reserve (>30 seconds). A part of this reserve comes from the spinning reserve. These are generators that are already connected to the power system. They increase their power by increasing the applied torque. The other part is supplied by the non-spinning reserve. This is additional capacity that is not yet connected to the grid, but can be activated within only a very short time period (<30 seconds) \cite{EliaRS,Rebours2005}.
+
+\subparagraph{The tertiary reserve}
+
+The tertiary reserve is manually switched on if there remains an imbalance for a longer period of time (>15 minutes). This happens only when there is a major imbalance. The tertiary reserve comes in two forms. The production reserve and the offtake reserve \cite{EliaRT1,EliaRT2}.
+
+When signing, the suppliers of the production reserve promise Elia to supply an extra amount of power, at the latest 15 minutes after Elia asks them to. The suppliers of the offtake reserve on the other hand promise Elia to consume an extra amount of power, at the latest 15 minutes after Elia asks them to. Elia can use both reserves until the original imbalance is solved \cite{EliaRT1,EliaRT2}.
+
+\subparagraph{Black start}
+
+When the complete grid goes down due to a blackout, certain suppliers can offer an additional service to reboot the grid. These production units don't need the grid to start their generators and are independent. When a blackout occurs, these units supply the first power. Then additional units can be connected to the grid one by one \cite{EliaBS}.
+
+Every \gls{brp} can provide a black start service, as long as their production unit has the following technical characteristics:
+\begin{itemize}
+\item be able to start without an external power source;
+\item be able to swiftly and dynamically adapt to load fluctuations up to \unit[10]{MW};
+\item have a regulator to enable rotation speeds and frequencies required by Elia's dispatching department;
+\item be able to feed power into the grid for 12 hours, starting 3 to 5 hours after the blackout, depending on whether or not the unit was running before the blackout.
+\end{itemize}
+
+The benefits of providing this service consist of a retribution for several years and the additional advantage that the producer can restore the industrial processes in his area sooner \cite{EliaBS}.
+
+\section{Evolution of reserve capacity}
+\label{s:reservefuture}
+
+In 2013, the \textbf{\gls{creg}} ordered a study to examine the reserve requirements in 2018. The concern regarding the necessary reserve requirements was twofold. Firstly, the increased amount of \textbf{\gls{vre}} is expected to result in increased forecast errors. Secondly, the construction of the \unit[1000]{MW} \gls{hvdc} interconnector between UK and Belgium (NEMO project)is expected to create both very large positive and negative imbalances in case of an outage \cite{CREGR2018}.
+
+For the primary reserve, only a small increase is expected. The secondary and tertiary reserves, on the other hand, are expected to increase significantly. Both an optimistic and a pessimistic scenario were calculated and the results are shown in table \ref{t:R2018} \cite{CREGR2018}.
+
+\begin{table*}\centering
+\ra{1.3}
+\caption*{\textbf{Reserve requirements in 2018 [\unit{MW}]}}
+\begin{tabular}{@{}l c llll@{}}\toprule
+Scenario & \phantom{abcd} & Primary reserve & Secondary reserve & \multicolumn{2}{c}{Tertiary reserve} \\ \cmidrule{5-6}
+         && & & downward & upward \\ \midrule
+\parbox{3cm}{2013 \\ \textit{Reference scenario}}  && 90-106 & 140 & 695 & 1120 \\
+\\
+\parbox{3cm}{2018 \\ \textit{Low reserve\\ scenario}}  && 95-110 & 152 & 1138 & 1078 \\
+\\
+\parbox{3cm}{2018 \\ \textit{High reserve\\ scenario}}  && 95-110 & 192 & 1331 & 1321 \\
+\\
+\bottomrule
+\end{tabular}
+\caption[Reserve requirements in 2018]{Different scenarios for the reserve requirements in 2018.}
+\label{t:R2018}
+\end{table*}
+
+\section{Conclusion}
+
+This thesis assumes a supplier that produces electricity, generated by both wind and \gls{chp} generators. This supplier will act as a \gls{brp} (see section \ref{s:gridactors}). In order to do so, the supplier will have to cope with the typical wind forecast errors (see chapter \ref{c:WindUnc}). If not, imbalance tarrifs will be charged (see section \ref{ss:balanceresponsibility}). In the future, the aggregated imbalance will only increase and therefore, the need for additional imbalance reduction methods will only increase (see section \ref{s:reservefuture}). \Gls{chp} could be one of the answers to this problem.

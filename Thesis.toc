@@ -1,34 +1,23 @@
-\contentsline {chapter}{\numberline {1}Introduction}{5}{chapter.1}
-\contentsline {chapter}{\numberline {2}Different types of CHP's}{7}{chapter.2}
-\contentsline {section}{\numberline {2.1}Internal combustion engine (ICE)}{7}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Working principle}{7}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Other properties}{8}{subsection.2.1.2}
-\contentsline {paragraph}{Efficiencies}{8}{section*.2}
-\contentsline {paragraph}{Investment cost}{8}{section*.3}
-\contentsline {paragraph}{Dynamic properties}{8}{section*.4}
-\contentsline {section}{\numberline {2.2}Turbine}{8}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Working principle}{8}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Other properties}{8}{subsection.2.2.2}
-\contentsline {paragraph}{Efficiencies}{8}{section*.5}
-\contentsline {paragraph}{Investment cost}{8}{section*.6}
-\contentsline {paragraph}{Dynamic properties}{8}{section*.7}
-\contentsline {section}{\numberline {2.3}Stirling engine}{9}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Working principle}{9}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Other properties}{9}{subsection.2.3.2}
-\contentsline {paragraph}{Efficiencies}{9}{section*.8}
-\contentsline {paragraph}{Investment cost}{9}{section*.9}
-\contentsline {paragraph}{Dynamic properties}{9}{section*.10}
-\contentsline {section}{\numberline {2.4}Fuel cells}{9}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Working principle}{9}{subsection.2.4.1}
-\contentsline {subparagraph}{Low operation temperature}{10}{section*.11}
-\contentsline {subparagraph}{High operation temperature}{10}{section*.12}
-\contentsline {subsection}{\numberline {2.4.2}Efficiencies}{10}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Investment cost}{10}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Dynamic properties}{10}{subsection.2.4.4}
-\contentsline {subparagraph}{Low operation temperature}{10}{section*.13}
-\contentsline {subparagraph}{High operation temperature}{11}{section*.14}
-\contentsline {section}{\numberline {2.5}Conclusion}{11}{section.2.5}
-\contentsline {chapter}{\numberline {3}Electricity Markets}{13}{chapter.3}
-\contentsline {chapter}{\numberline {4}Wind Uncertainties}{15}{chapter.4}
-\contentsline {chapter}{\numberline {5}Model}{17}{chapter.5}
-\contentsline {chapter}{\numberline {6}Conclusion}{19}{chapter.6}
+\contentsline {chapter}{List of abbreviations and Symbols}{iii}{chapter*.1}
+\contentsline {section}{Abbreviations}{v}{section*.3}
+\contentsline {section}{Symbols}{v}{section*.5}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Different types of CHP's}{3}{chapter.2}
+\contentsline {chapter}{\numberline {3}Electricity Markets}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Actors in the Belgian Electricity grid}{5}{section.3.1}
+\contentsline {section}{\numberline {3.2}Balancing mechanism}{5}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Balance responsibility}{6}{subsection.3.2.1}
+\contentsline {subparagraph}{Nominations on the day-ahead market}{6}{section*.9}
+\contentsline {subparagraph}{The intraday market}{6}{section*.10}
+\contentsline {subparagraph}{The imbalance tarrifs}{6}{section*.11}
+\contentsline {subsection}{\numberline {3.2.2}European cooperation}{7}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}System services}{7}{subsection.3.2.3}
+\contentsline {subparagraph}{The primary reserve}{8}{section*.13}
+\contentsline {subparagraph}{The secondary reserve}{8}{section*.14}
+\contentsline {subparagraph}{The tertiary reserve}{9}{section*.15}
+\contentsline {subparagraph}{Black start}{9}{section*.16}
+\contentsline {section}{\numberline {3.3}Evolution of reserve capacity}{9}{section.3.3}
+\contentsline {section}{\numberline {3.4}Conclusion}{9}{section.3.4}
+\contentsline {chapter}{\numberline {4}Wind Uncertainties}{11}{chapter.4}
+\contentsline {chapter}{\numberline {5}Model}{13}{chapter.5}
+\contentsline {chapter}{\numberline {6}Conclusion}{15}{chapter.6}

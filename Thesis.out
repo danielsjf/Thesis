@@ -1,21 +1,16 @@
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
-\BOOKMARK [0][-]{chapter.2}{Different types of CHP's}{}% 2
-\BOOKMARK [1][-]{section.2.1}{Internal combustion engine \(ICE\)}{chapter.2}% 3
-\BOOKMARK [2][-]{subsection.2.1.1}{Working principle}{section.2.1}% 4
-\BOOKMARK [2][-]{subsection.2.1.2}{Other properties}{section.2.1}% 5
-\BOOKMARK [1][-]{section.2.2}{Turbine}{chapter.2}% 6
-\BOOKMARK [2][-]{subsection.2.2.1}{Working principle}{section.2.2}% 7
-\BOOKMARK [2][-]{subsection.2.2.2}{Other properties}{section.2.2}% 8
-\BOOKMARK [1][-]{section.2.3}{Stirling engine}{chapter.2}% 9
-\BOOKMARK [2][-]{subsection.2.3.1}{Working principle}{section.2.3}% 10
-\BOOKMARK [2][-]{subsection.2.3.2}{Other properties}{section.2.3}% 11
-\BOOKMARK [1][-]{section.2.4}{Fuel cells}{chapter.2}% 12
-\BOOKMARK [2][-]{subsection.2.4.1}{Working principle}{section.2.4}% 13
-\BOOKMARK [2][-]{subsection.2.4.2}{Efficiencies}{section.2.4}% 14
-\BOOKMARK [2][-]{subsection.2.4.3}{Investment cost}{section.2.4}% 15
-\BOOKMARK [2][-]{subsection.2.4.4}{Dynamic properties}{section.2.4}% 16
-\BOOKMARK [1][-]{section.2.5}{Conclusion}{chapter.2}% 17
-\BOOKMARK [0][-]{chapter.3}{Electricity Markets}{}% 18
-\BOOKMARK [0][-]{chapter.4}{Wind Uncertainties}{}% 19
-\BOOKMARK [0][-]{chapter.5}{Model}{}% 20
-\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 21
+\BOOKMARK [0][-]{chapter*.1}{List of abbreviations and Symbols}{}% 1
+\BOOKMARK [1][-]{section*.3}{Abbreviations}{chapter*.1}% 2
+\BOOKMARK [1][-]{section*.5}{Symbols}{chapter*.1}% 3
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
+\BOOKMARK [0][-]{chapter.2}{Different types of CHP's}{}% 5
+\BOOKMARK [0][-]{chapter.3}{Electricity Markets}{}% 6
+\BOOKMARK [1][-]{section.3.1}{Actors in the Belgian Electricity grid}{chapter.3}% 7
+\BOOKMARK [1][-]{section.3.2}{Balancing mechanism}{chapter.3}% 8
+\BOOKMARK [2][-]{subsection.3.2.1}{Balance responsibility}{section.3.2}% 9
+\BOOKMARK [2][-]{subsection.3.2.2}{European cooperation}{section.3.2}% 10
+\BOOKMARK [2][-]{subsection.3.2.3}{System services}{section.3.2}% 11
+\BOOKMARK [1][-]{section.3.3}{Evolution of reserve capacity}{chapter.3}% 12
+\BOOKMARK [1][-]{section.3.4}{Conclusion}{chapter.3}% 13
+\BOOKMARK [0][-]{chapter.4}{Wind Uncertainties}{}% 14
+\BOOKMARK [0][-]{chapter.5}{Model}{}% 15
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 16

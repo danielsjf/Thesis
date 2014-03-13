@@ -1,9 +1,29 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Thesis.aux
 The style file: plain.bst
 Database file #1: References/Bibliography.bib
-Warning--I didn't find a database entry for "??"
-Warning--empty journal in Commission2010
-Warning--there's a number but no volume in Commission2010
-Warning--empty journal in Fabbri2005
-Warning--empty journal in Houwing2009
-(There were 5 warnings)
+Warning--empty institution in CREGR2018
+Warning--empty institution in EliaBS
+Warning--empty year in EliaBS
+Warning--empty institution in EliaIT
+Warning--empty year in EliaIT
+Warning--empty institution in EliaN
+Warning--empty year in EliaN
+Warning--empty institution in EliaRO
+Warning--empty year in EliaRO
+Warning--empty institution in EliaRT2
+Warning--empty year in EliaRT2
+Warning--empty institution in EliaRT1
+Warning--empty year in EliaRT1
+Warning--empty institution in EliaBM
+Warning--empty year in EliaBM
+Warning--empty institution in EliaDA
+Warning--empty year in EliaDA
+Warning--empty institution in EliaI
+Warning--empty year in EliaI
+Warning--empty institution in EliaRP
+Warning--empty year in EliaRP
+Warning--empty institution in EliaRS
+Warning--empty year in EliaRS
+Warning--empty institution in EliaMarkt
+Warning--empty note in Rebours2005
+(There were 25 warnings)

@@ -1,0 +1,510 @@
+\ifglsentryexists{ccgt}{}%
+{%
+\gls@defglossaryentry{ccgt}%
+{%
+name={CCGT},%
+sort={CCGT},%
+type={acronym},%
+first={Combined Cycle Gas Turbine (CCGT)},%
+firstplural={Combined Cycle Gas Turbines(CCGTs)},%
+text={CCGT},%
+plural={CCGTs},%
+description={Combined Cycle Gas Turbine},%
+descriptionplural={Combined Cycle Gas Turbine\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Combined Cycle Gas Turbine},%
+longplural={Combined Cycle Gas Turbines},%
+short={CCGT},%
+shortplural={CCGTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{tso}{}%
+{%
+\gls@defglossaryentry{tso}%
+{%
+name={TSO},%
+sort={TSO},%
+type={acronym},%
+first={Transmission System Operator (TSO)},%
+firstplural={Transmission System Operators(TSOs)},%
+text={TSO},%
+plural={TSOs},%
+description={Transmission System Operator},%
+descriptionplural={Transmission System Operator\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Transmission System Operator},%
+longplural={Transmission System Operators},%
+short={TSO},%
+shortplural={TSOs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{arp}{}%
+{%
+\gls@defglossaryentry{arp}%
+{%
+name={ARP},%
+sort={ARP},%
+type={acronym},%
+first={Access Responsible Party (ARP)},%
+firstplural={Access Responsible Parties (ARPs)},%
+text={ARP},%
+plural={ARPs},%
+description={Access Responsible Party},%
+descriptionplural={Access Responsible Parties},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Access Responsible Party},%
+longplural={Access Responsible Parties},%
+short={ARP},%
+shortplural={ARPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{brp}{}%
+{%
+\gls@defglossaryentry{brp}%
+{%
+name={BRP},%
+sort={BRP},%
+type={acronym},%
+first={Balance Responsible Party (BRP)},%
+firstplural={Balance Responsible Parties (BRPs)},%
+text={BRP},%
+plural={BRPs},%
+description={Balance Responsible Party},%
+descriptionplural={Balance Responsible Parties},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Balance Responsible Party},%
+longplural={Balance Responsible Parties},%
+short={BRP},%
+shortplural={BRPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nrv}{}%
+{%
+\gls@defglossaryentry{nrv}%
+{%
+name={NRV},%
+sort={NRV},%
+type={acronym},%
+first={Net Regulation Volume (NRV)},%
+firstplural={Net Regulation Volumes(NRVs)},%
+text={NRV},%
+plural={NRVs},%
+description={Net Regulation Volume},%
+descriptionplural={Net Regulation Volume\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Net Regulation Volume},%
+longplural={Net Regulation Volumes},%
+short={NRV},%
+shortplural={NRVs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mip}{}%
+{%
+\gls@defglossaryentry{mip}%
+{%
+name={MIP},%
+sort={MIP},%
+type={acronym},%
+first={Marginal Incremental Price (MIP)},%
+firstplural={Marginal Incremental Prices(MIPs)},%
+text={MIP},%
+plural={MIPs},%
+description={Marginal Incremental Price},%
+descriptionplural={Marginal Incremental Price\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Marginal Incremental Price},%
+longplural={Marginal Incremental Prices},%
+short={MIP},%
+shortplural={MIPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mdp}{}%
+{%
+\gls@defglossaryentry{mdp}%
+{%
+name={MDP},%
+sort={MDP},%
+type={acronym},%
+first={Marginal Decremental Price (MDP)},%
+firstplural={Marginal Decremental Prices(MDPs)},%
+text={MDP},%
+plural={MDPs},%
+description={Marginal Decremental Price},%
+descriptionplural={Marginal Decremental Price\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Marginal Decremental Price},%
+longplural={Marginal Decremental Prices},%
+short={MDP},%
+shortplural={MDPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{entsoe}{}%
+{%
+\gls@defglossaryentry{entsoe}%
+{%
+name={ENTSO-E},%
+sort={ENTSO-E},%
+type={acronym},%
+first={European Network of Transmission System Operators for Electricity (ENTSO-E)},%
+firstplural={European Network of Transmission System Operators for Electricitys(ENTSO-Es)},%
+text={ENTSO-E},%
+plural={ENTSO-Es},%
+description={European Network of Transmission System Operators for Electricity},%
+descriptionplural={European Network of Transmission System Operators for Electricity\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={European Network of Transmission System Operators for Electricity},%
+longplural={European Network of Transmission System Operators for Electricitys},%
+short={ENTSO-E},%
+shortplural={ENTSO-Es},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ucte}{}%
+{%
+\gls@defglossaryentry{ucte}%
+{%
+name={UCTE},%
+sort={UCTE},%
+type={acronym},%
+first={Union for the Coordination of the Transmission of Electricity (UCTE)},%
+firstplural={Union for the Coordination of the Transmission of Electricitys(UCTEs)},%
+text={UCTE},%
+plural={UCTEs},%
+description={Union for the Coordination of the Transmission of Electricity},%
+descriptionplural={Union for the Coordination of the Transmission of Electricity\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Union for the Coordination of the Transmission of Electricity},%
+longplural={Union for the Coordination of the Transmission of Electricitys},%
+short={UCTE},%
+shortplural={UCTEs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{vre}{}%
+{%
+\gls@defglossaryentry{vre}%
+{%
+name={VRE},%
+sort={VRE},%
+type={acronym},%
+first={Variable Renewable Energy resources (VRE)},%
+firstplural={Variable Renewable Energy resourcess(VREs)},%
+text={VRE},%
+plural={VREs},%
+description={Variable Renewable Energy resources},%
+descriptionplural={Variable Renewable Energy resources\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Variable Renewable Energy resources},%
+longplural={Variable Renewable Energy resourcess},%
+short={VRE},%
+shortplural={VREs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{creg}{}%
+{%
+\gls@defglossaryentry{creg}%
+{%
+name={CREG},%
+sort={CREG},%
+type={acronym},%
+first={Commission for the Regulation of the Electricity and Gas - \protect \textit {Commissie voor de Regulering van de Elektriciteit en het Gas} (CREG)},%
+firstplural={Commission for the Regulation of the Electricity and Gas - \protect \textit {Commissie voor de Regulering van de Elektriciteit en het Gas}s(CREGs)},%
+text={CREG},%
+plural={CREGs},%
+description={Commission for the Regulation of the Electricity and Gas - \textit {Commissie voor de Regulering van de Elektriciteit en het Gas}},%
+descriptionplural={Commission for the Regulation of the Electricity and Gas - \textit {Commissie voor de Regulering van de Elektriciteit en het Gas}\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Commission for the Regulation of the Electricity and Gas - \protect \textit {Commissie voor de Regulering van de Elektriciteit en het Gas}},%
+longplural={Commission for the Regulation of the Electricity and Gas - \protect \textit {Commissie voor de Regulering van de Elektriciteit en het Gas}s},%
+short={CREG},%
+shortplural={CREGs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{hvdc}{}%
+{%
+\gls@defglossaryentry{hvdc}%
+{%
+name={HVDC},%
+sort={HVDC},%
+type={acronym},%
+first={High Voltage Direct Current (HVDC)},%
+firstplural={High Voltage Direct Currents(HVDCs)},%
+text={HVDC},%
+plural={HVDCs},%
+description={High Voltage Direct Current},%
+descriptionplural={High Voltage Direct Current\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={High Voltage Direct Current},%
+longplural={High Voltage Direct Currents},%
+short={HVDC},%
+shortplural={HVDCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{chp}{}%
+{%
+\gls@defglossaryentry{chp}%
+{%
+name={CHP},%
+sort={CHP},%
+type={acronym},%
+first={Combined Heat and Power (CHP)},%
+firstplural={Combined Heat and Powers(CHPs)},%
+text={CHP},%
+plural={CHPs},%
+description={Combined Heat and Power},%
+descriptionplural={Combined Heat and Power\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Combined Heat and Power},%
+longplural={Combined Heat and Powers},%
+short={CHP},%
+shortplural={CHPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{wkk}{}%
+{%
+\gls@defglossaryentry{wkk}%
+{%
+name={WKK},%
+sort={WKK},%
+type={acronym},%
+first={Warmtekrachtkoppeling (WKK)},%
+firstplural={Warmtekrachtkoppelings(WKKs)},%
+text={WKK},%
+plural={WKKs},%
+description={Warmtekrachtkoppeling},%
+descriptionplural={Warmtekrachtkoppeling\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Warmtekrachtkoppeling},%
+longplural={Warmtekrachtkoppelings},%
+short={WKK},%
+shortplural={WKKs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fc}{}%
+{%
+\gls@defglossaryentry{fc}%
+{%
+name={FC},%
+sort={FC},%
+type={acronym},%
+first={Frequency Control (FC)},%
+firstplural={Frequency Controls(FCs)},%
+text={FC},%
+plural={FCs},%
+description={Frequency Control},%
+descriptionplural={Frequency Control\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Frequency Control},%
+longplural={Frequency Controls},%
+short={FC},%
+shortplural={FCs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{alpha}{}%
+{%
+\gls@defglossaryentry{alpha}%
+{%
+name={\ensuremath {\alpha }},%
+sort={\ensuremath {\alpha }},%
+type={symbol},%
+first={\protect \ensuremath {\alpha }},%
+firstplural={\protect \ensuremath {\alpha }s},%
+text={\protect \ensuremath {\alpha }},%
+plural={\protect \ensuremath {\alpha }s},%
+description={additional imbalance fee to stimulate the \glspl {arp} to maintain their balance},%
+descriptionplural={additional imbalance fee to stimulate the \glspl {arp} to maintain their balance},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{beta}{}%
+{%
+\gls@defglossaryentry{beta}%
+{%
+name={\ensuremath {\beta }},%
+sort={\ensuremath {\beta }},%
+type={symbol},%
+first={\protect \ensuremath {\beta }},%
+firstplural={\protect \ensuremath {\beta }s},%
+text={\protect \ensuremath {\beta }},%
+plural={\protect \ensuremath {\beta }s},%
+description={additional imbalance fee to stimulate the \glspl {arp} to maintain their balance},%
+descriptionplural={additional imbalance fee to stimulate the \glspl {arp} to maintain their balance},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%

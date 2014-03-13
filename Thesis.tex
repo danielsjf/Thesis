@@ -12,7 +12,18 @@
 \usepackage{float}
 \usepackage[parfill]{parskip}
 \usepackage{subfigure}
-\usepackage{units}
+\usepackage{units} % better spacing between value and units
+\usepackage{textcomp}
+\usepackage[official]{eurosym} % better eurosign
+\usepackage{multirow} % for tables
+\usepackage{booktabs} % makes tables look better
+
+% Glossary
+\usepackage[nomain,acronym,toc,section]{glossaries}
+\newglossary{symbol}{sbl}{smb}{Symbols}
+\makeglossaries
+\usepackage[xindy]{imakeidx}
+\makeindex
 
 % Fancy listings
 \DeclareCaptionFont{white}{\color{white}}
@@ -42,6 +53,8 @@
 %\makeglossaries
 
 \begin{document}
+\input{Glossary.tex}
+\renewcommand{\thepage}{\roman{page}}
 
 \setlength\parindent{0pt}
 
@@ -88,47 +101,57 @@ J. \textsc{Zapata Riveros }\\
 
 \resetfigurecounter
 
-\newpage
-
 \newenvironment{abstract}{
     \onehalfspacing%
     \chapter*{\centering Abstract}%
 }{\input{General/Abstract.tex}}
 
-\chapter{Introduction}
-\label{s:Introduction}
+\addcontentsline{toc}{chapter}{List of abbreviations and Symbols}
+\chapter*{List of abbreviations and symbols}
+\printglossary[type=\acronymtype,title=Abbreviations,toctitle=Abbreviations]
+\printglossary[type=symbol]
 
-\input{General/Introduction.tex}
+\listoffigures
+
+\listoftables
+
+\chapter{Introduction}
+\renewcommand{\thepage}{\arabic{page}}
+\setcounter{page}{1}
+\glsresetall
+\label{c:Introduction}
+
+%\input{General/Introduction.tex}
 
 %\chapter{Literature}
-%\label{s:Literature}
+%\label{c:Literature}
 %
 %\input{Content/Literature.tex}
 
 \chapter{Different types of CHP's}
-\label{s:TypesCHP}
+\label{c:TypesCHP}
 
-\input{Content/DifferentTypesOfCHPs.tex}
+%\input{Content/DifferentTypesOfCHPs.tex}
 
 \chapter{Electricity Markets}
-\label{s:ElecMar}
+\label{c:ElecMar}
 
 \input{Content/ElectricityMarkets.tex}
 
 \chapter{Wind Uncertainties}
-\label{s:WindUnc}
+\label{c:WindUnc}
 
-\input{Content/WindUncertainties.tex}
+%\input{Content/WindUncertainties.tex}
 
 \chapter{Model}
-\label{s:Model}
+\label{c:Model}
 
-\input{Content/Model.tex}
+%\input{Content/Model.tex}
 
 \chapter{Conclusion}
 \label{s:Conclusion}
 
-\input{General/Conclusion.tex}
+%\input{General/Conclusion.tex}
 
 \bibliographystyle{plain}
 \bibliography{References/Bibliography}
